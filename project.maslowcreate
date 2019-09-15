@@ -65,8 +65,8 @@
         {
             "atomType": "Molecule",
             "name": "Pins",
-            "x": 132,
-            "y": 206,
+            "x": 122,
+            "y": 207,
             "uniqueID": 338352,
             "ioValues": [],
             "topLevel": false,
@@ -167,8 +167,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 247,
-                    "y": 254,
+                    "x": 241,
+                    "y": 251,
                     "uniqueID": 858458,
                     "ioValues": [
                         {
@@ -220,10 +220,73 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 538,
+                    "y": 53,
+                    "uniqueID": 911867,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 529,
+                    "y": 181,
+                    "uniqueID": 111807,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 527,
+                    "y": 242,
+                    "uniqueID": 823336,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 831,
-                    "y": 147,
+                    "x": 907,
+                    "y": 119,
                     "uniqueID": 412018,
                     "ioValues": [
                         {
@@ -240,6 +303,15 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 1154,
+                    "y": 152,
+                    "uniqueID": 195014,
+                    "ioValues": [],
+                    "selectedColorIndex": "9"
                 },
                 {
                     "atomType": "Output",
@@ -312,8 +384,32 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 483370,
+                    "ap2ID": 823336
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 483370,
+                    "ap2ID": 111807
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 483370,
+                    "ap2ID": 911867
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 412018,
+                    "ap2ID": 195014
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 412018
+                    "ap1ID": 195014
                 }
             ],
             "fileTypeVersion": 1
@@ -338,16 +434,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Pins",
-                    "x": 132,
-                    "y": 206,
+                    "x": 122,
+                    "y": 207,
                     "uniqueID": 338352,
                     "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 374,
-                    "y": 139,
+                    "x": 375,
+                    "y": 142,
                     "uniqueID": 610762,
                     "ioValues": [
                         {
