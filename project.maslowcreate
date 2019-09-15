@@ -74,8 +74,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 61,
-                    "y": 48,
+                    "x": 42,
+                    "y": 70,
                     "uniqueID": 701782,
                     "ioValues": [
                         {
@@ -91,8 +91,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 183,
-                    "y": 37,
+                    "x": 115,
+                    "y": 30,
                     "uniqueID": 553419,
                     "ioValues": [
                         {
@@ -104,8 +104,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 234,
-                    "y": 73,
+                    "x": 163,
+                    "y": 64,
                     "uniqueID": 779821,
                     "ioValues": [
                         {
@@ -121,6 +121,99 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 236,
+                    "y": 129,
+                    "uniqueID": 883192,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 234,
+                    "y": 189,
+                    "uniqueID": 873236,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -2.7
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 247,
+                    "y": 254,
+                    "uniqueID": 858458,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 5.08
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 384,
+                    "y": 190,
+                    "uniqueID": 483370,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 931174",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 784026",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 540983",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 540254",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 931174",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Assembly",
@@ -170,6 +263,42 @@
                     "ap2Name": "3D shape 733362",
                     "ap1ID": 779821,
                     "ap2ID": 412018
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 779821,
+                    "ap2ID": 883192
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 779821,
+                    "ap2ID": 873236
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 540254",
+                    "ap1ID": 883192,
+                    "ap2ID": 483370
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 540983",
+                    "ap1ID": 873236,
+                    "ap2ID": 483370
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 873236,
+                    "ap2ID": 858458
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 784026",
+                    "ap1ID": 858458,
+                    "ap2ID": 483370
                 },
                 {
                     "ap1Name": "geometry",
