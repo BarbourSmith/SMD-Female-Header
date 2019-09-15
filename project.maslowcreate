@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 126,
-            "y": 49,
+            "x": 127,
+            "y": 44,
             "uniqueID": 897549,
             "ioValues": [],
             "topLevel": false,
@@ -12,7 +12,7 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 115,
+                    "x": 118,
                     "y": 114,
                     "uniqueID": 711082,
                     "ioValues": [
@@ -22,7 +22,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 48.64
+                            "ioValue": 38.47
                         }
                     ]
                 },
@@ -65,8 +65,8 @@
         {
             "atomType": "Molecule",
             "name": "Pins",
-            "x": 122,
-            "y": 207,
+            "x": 125,
+            "y": 210,
             "uniqueID": 338352,
             "ioValues": [],
             "topLevel": false,
@@ -125,8 +125,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 231,
-                    "y": 138,
+                    "x": 226,
+                    "y": 136,
                     "uniqueID": 883192,
                     "ioValues": [
                         {
@@ -146,8 +146,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 238,
-                    "y": 192,
+                    "x": 235,
+                    "y": 182,
                     "uniqueID": 873236,
                     "ioValues": [
                         {
@@ -167,8 +167,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 241,
-                    "y": 251,
+                    "x": 245,
+                    "y": 248,
                     "uniqueID": 858458,
                     "ioValues": [
                         {
@@ -222,8 +222,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 536,
-                    "y": 57,
+                    "x": 538,
+                    "y": 59,
                     "uniqueID": 911867,
                     "ioValues": [
                         {
@@ -243,8 +243,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 530,
-                    "y": 191,
+                    "x": 537,
+                    "y": 183,
                     "uniqueID": 111807,
                     "ioValues": [
                         {
@@ -264,8 +264,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 526,
-                    "y": 251,
+                    "x": 528,
+                    "y": 250,
                     "uniqueID": 823336,
                     "ioValues": [
                         {
@@ -285,8 +285,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 909,
-                    "y": 124,
+                    "x": 860,
+                    "y": 123,
                     "uniqueID": 412018,
                     "ioValues": [
                         {
@@ -456,16 +456,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Body",
-                    "x": 126,
-                    "y": 49,
+                    "x": 127,
+                    "y": 44,
                     "uniqueID": 897549,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Pins",
-                    "x": 122,
-                    "y": 207,
+                    "x": 125,
+                    "y": 210,
                     "uniqueID": 338352,
                     "ioValues": []
                 },
