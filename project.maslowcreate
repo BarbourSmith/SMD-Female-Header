@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 129,
-            "y": 55,
+            "x": 126,
+            "y": 49,
             "uniqueID": 897549,
             "ioValues": [],
             "topLevel": false,
@@ -12,8 +12,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 118,
-                    "y": 109,
+                    "x": 115,
+                    "y": 114,
                     "uniqueID": 711082,
                     "ioValues": [
                         {
@@ -197,6 +197,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 594009",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 784026",
                             "ioValue": 10
                         },
@@ -210,10 +214,6 @@
                         },
                         {
                             "name": "3D shape 931174",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 594009",
                             "ioValue": 10
                         }
                     ],
@@ -294,6 +294,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 597139",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 750464",
                             "ioValue": 10
                         },
@@ -307,10 +311,6 @@
                         },
                         {
                             "name": "3D shape 496629",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 597139",
                             "ioValue": 10
                         }
                     ],
@@ -456,8 +456,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Body",
-                    "x": 129,
-                    "y": 55,
+                    "x": 126,
+                    "y": 49,
                     "uniqueID": 897549,
                     "ioValues": []
                 },
@@ -481,15 +481,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 417489",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 865176",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 520662",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 417489",
                             "ioValue": 10
                         }
                     ],
