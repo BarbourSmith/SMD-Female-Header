@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 131,
-            "y": 63,
+            "x": 129,
+            "y": 55,
             "uniqueID": 897549,
             "ioValues": [],
             "topLevel": false,
@@ -65,8 +65,8 @@
         {
             "atomType": "Molecule",
             "name": "Pins",
-            "x": 131,
-            "y": 205,
+            "x": 136,
+            "y": 208,
             "uniqueID": 338352,
             "ioValues": [],
             "topLevel": false,
@@ -74,32 +74,75 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 139,
-                    "y": 89,
+                    "x": 83,
+                    "y": 75,
                     "uniqueID": 701782,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.6
+                            "ioValue": 2
                         },
                         {
                             "name": "y length",
-                            "ioValue": 2
+                            "ioValue": 0.6
                         }
                     ]
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 298,
-                    "y": 103,
+                    "x": 222,
+                    "y": 73,
                     "uniqueID": 553419,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 0.25
                         }
                     ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 358,
+                    "y": 70,
+                    "uniqueID": 779821,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 1.5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 831,
+                    "y": 147,
+                    "uniqueID": 412018,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 750464",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 733362",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 750464",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -115,6 +158,23 @@
                     "ap2Name": "geometry",
                     "ap1ID": 701782,
                     "ap2ID": 553419
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 553419,
+                    "ap2ID": 779821
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 733362",
+                    "ap1ID": 779821,
+                    "ap2ID": 412018
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 412018
                 }
             ],
             "fileTypeVersion": 1
@@ -131,16 +191,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Body",
-                    "x": 131,
-                    "y": 63,
+                    "x": 129,
+                    "y": 55,
                     "uniqueID": 897549,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Pins",
-                    "x": 131,
-                    "y": 205,
+                    "x": 136,
+                    "y": 208,
                     "uniqueID": 338352,
                     "ioValues": []
                 },
@@ -152,7 +212,7 @@
                     "uniqueID": 610762,
                     "ioValues": [
                         {
-                            "name": "3D shape 520662",
+                            "name": "3D shape 417489",
                             "ioValue": ""
                         },
                         {
@@ -161,6 +221,10 @@
                         },
                         {
                             "name": "3D shape 520662",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 417489",
                             "ioValue": 10
                         }
                     ],
@@ -194,6 +258,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 865176",
                     "ap1ID": 897549,
+                    "ap2ID": 610762
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 520662",
+                    "ap1ID": 338352,
                     "ap2ID": 610762
                 },
                 {
