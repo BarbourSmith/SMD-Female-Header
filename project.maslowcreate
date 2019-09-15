@@ -125,8 +125,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 236,
-                    "y": 129,
+                    "x": 231,
+                    "y": 138,
                     "uniqueID": 883192,
                     "ioValues": [
                         {
@@ -135,7 +135,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 5.08
                         },
                         {
                             "name": "zDist",
@@ -146,8 +146,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 234,
-                    "y": 189,
+                    "x": 238,
+                    "y": 192,
                     "uniqueID": 873236,
                     "ioValues": [
                         {
@@ -156,7 +156,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 2.54
                         },
                         {
                             "name": "zDist",
@@ -188,12 +188,12 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 384,
-                    "y": 190,
+                    "x": 396,
+                    "y": 138,
                     "uniqueID": 483370,
                     "ioValues": [
                         {
-                            "name": "3D shape 931174",
+                            "name": "3D shape 594009",
                             "ioValue": ""
                         },
                         {
@@ -211,6 +211,10 @@
                         {
                             "name": "3D shape 931174",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 594009",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -223,15 +227,15 @@
                     "uniqueID": 412018,
                     "ioValues": [
                         {
-                            "name": "3D shape 750464",
+                            "name": "3D shape 783680",
                             "ioValue": ""
                         },
                         {
-                            "name": "3D shape 733362",
+                            "name": "3D shape 750464",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 750464",
+                            "name": "3D shape 783680",
                             "ioValue": 10
                         }
                     ],
@@ -260,12 +264,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 733362",
-                    "ap1ID": 779821,
-                    "ap2ID": 412018
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 779821,
                     "ap2ID": 883192
@@ -275,6 +273,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 779821,
                     "ap2ID": 873236
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 931174",
+                    "ap1ID": 779821,
+                    "ap2ID": 483370
                 },
                 {
                     "ap1Name": "geometry",
@@ -299,6 +303,12 @@
                     "ap2Name": "3D shape 784026",
                     "ap1ID": 858458,
                     "ap2ID": 483370
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 750464",
+                    "ap1ID": 483370,
+                    "ap2ID": 412018
                 },
                 {
                     "ap1Name": "geometry",
