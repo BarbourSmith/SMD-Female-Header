@@ -65,12 +65,42 @@
         {
             "atomType": "Molecule",
             "name": "Pins",
-            "x": 157,
-            "y": 199,
+            "x": 131,
+            "y": 205,
             "uniqueID": 338352,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 139,
+                    "y": 89,
+                    "uniqueID": 701782,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 0.6
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 298,
+                    "y": 103,
+                    "uniqueID": 553419,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -79,7 +109,14 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 701782,
+                    "ap2ID": 553419
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -102,8 +139,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Pins",
-                    "x": 157,
-                    "y": 199,
+                    "x": 131,
+                    "y": 205,
                     "uniqueID": 338352,
                     "ioValues": []
                 },
@@ -139,7 +176,7 @@
                     "BOMitem": {
                         "BOMitemName": "19 Place Female Header",
                         "numberNeeded": 1,
-                        "costUSD": 0,
+                        "costUSD": 0.95,
                         "source": "www.example.com",
                         "totalNeeded": 0
                     }

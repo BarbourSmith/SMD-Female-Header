@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|19 Place Female Header|1|$0.00|www.example.com|
-|Total: |1|$0.00| |
+|19 Place Female Header|1|$0.95|www.example.com|
+|Total: |1|$0.95| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $2.85
