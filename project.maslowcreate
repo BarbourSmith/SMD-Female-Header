@@ -2,12 +2,74 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "SMD Female Header",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 363830,
+            "name": "Body",
+            "x": 131,
+            "y": 63,
+            "uniqueID": 897549,
             "ioValues": [],
-            "topLevel": true,
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 118,
+                    "y": 109,
+                    "uniqueID": 711082,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 2.5
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 48.64
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 290,
+                    "y": 118,
+                    "uniqueID": 621214,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 7.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 711082,
+                    "ap2ID": 621214
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 621214
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Pins",
+            "x": 157,
+            "y": 199,
+            "uniqueID": 338352,
+            "ioValues": [],
+            "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Output",
@@ -18,6 +80,97 @@
                 }
             ],
             "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "SMD Female Header",
+            "x": 0,
+            "y": 0,
+            "uniqueID": 363830,
+            "ioValues": [],
+            "topLevel": true,
+            "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "Body",
+                    "x": 131,
+                    "y": 63,
+                    "uniqueID": 897549,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Pins",
+                    "x": 157,
+                    "y": 199,
+                    "uniqueID": 338352,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 374,
+                    "y": 139,
+                    "uniqueID": 610762,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 520662",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 865176",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 520662",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 703,
+                    "y": 165,
+                    "uniqueID": 284574,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "19 Place Female Header",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 865176",
+                    "ap1ID": 897549,
+                    "ap2ID": 610762
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 610762,
+                    "ap2ID": 284574
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 284574
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
