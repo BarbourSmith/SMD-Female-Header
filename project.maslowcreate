@@ -65,8 +65,8 @@
         {
             "atomType": "Molecule",
             "name": "Pins",
-            "x": 136,
-            "y": 208,
+            "x": 132,
+            "y": 206,
             "uniqueID": 338352,
             "ioValues": [],
             "topLevel": false,
@@ -74,13 +74,13 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 83,
-                    "y": 75,
+                    "x": 61,
+                    "y": 48,
                     "uniqueID": 701782,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 2
+                            "ioValue": 2.7
                         },
                         {
                             "name": "y length",
@@ -91,8 +91,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 222,
-                    "y": 73,
+                    "x": 183,
+                    "y": 37,
                     "uniqueID": 553419,
                     "ioValues": [
                         {
@@ -104,13 +104,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 358,
-                    "y": 70,
+                    "x": 234,
+                    "y": 73,
                     "uniqueID": 779821,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 1.5
+                            "ioValue": 1.35
                         },
                         {
                             "name": "yDist",
@@ -199,8 +199,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Pins",
-                    "x": 136,
-                    "y": 208,
+                    "x": 132,
+                    "y": 206,
                     "uniqueID": 338352,
                     "ioValues": []
                 },

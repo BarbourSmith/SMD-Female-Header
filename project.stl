@@ -1,21 +1,21 @@
 solid JSxCAD
 facet normal 1 0 0
 outer loop
-vertex 0.5 -0.3 0
-vertex 0.5 0.3 0.25
-vertex 0.5 -0.3 0.25
+vertex 0 -0.3 0
+vertex 0 0.3 0.25
+vertex 0 -0.3 0.25
 endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 0.5 0.3 0.25
-vertex 0.5 -0.3 0
-vertex 0.5 0.3 0
+vertex 0 0.3 0.25
+vertex 0 -0.3 0
+vertex 0 0.3 0
 endloop
 endfacet
 facet normal 0 -1 0
 outer loop
-vertex 0.5 0.3 0.25
+vertex 0 0.3 0.25
 vertex 1.25 0.3 0
 vertex 1.25 0.3 0.25
 endloop
@@ -23,13 +23,13 @@ endfacet
 facet normal 0 -1 0
 outer loop
 vertex 1.25 0.3 0
-vertex 0.5 0.3 0.25
-vertex 0.5 0.3 0
+vertex 0 0.3 0.25
+vertex 0 0.3 0
 endloop
 endfacet
 facet normal 0 1 0
 outer loop
-vertex 0.5 -0.3 0
+vertex 0 -0.3 0
 vertex 1.25 -0.3 0.25
 vertex 1.25 -0.3 0
 endloop
@@ -37,22 +37,22 @@ endfacet
 facet normal 0 1 0
 outer loop
 vertex 1.25 -0.3 0.25
-vertex 0.5 -0.3 0
-vertex 0.5 -0.3 0.25
+vertex 0 -0.3 0
+vertex 0 -0.3 0.25
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
 vertex 1.25 -0.3 0.25
-vertex 0.5 0.3 0.25
+vertex 0 0.3 0.25
 vertex 1.25 0.3 0.25
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
-vertex 0.5 0.3 0.25
+vertex 0 0.3 0.25
 vertex 1.25 -0.3 0.25
-vertex 0.5 -0.3 0.25
+vertex 0 -0.3 0.25
 endloop
 endfacet
 facet normal -1 0 0
@@ -128,41 +128,41 @@ endfacet
 facet normal 0 0 -1
 outer loop
 vertex 1.25 -24.32 0
-vertex 0.5 -0.3 0
+vertex 0 -0.3 0
 vertex 1.25 -0.3 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
 vertex -1.25 -24.32 0
-vertex 0.5 -0.3 0
+vertex 0 -0.3 0
 vertex 1.25 -24.32 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
-vertex 0.5 -0.3 0
+vertex 0 -0.3 0
 vertex -1.25 -24.32 0
 vertex -1.25 -0.3 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
-vertex 0.5 -0.3 0
+vertex 0 -0.3 0
 vertex -1.25 0.3 0
-vertex 0.5 0.3 0
+vertex 0 0.3 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
 vertex -1.25 0.3 0
-vertex 0.5 -0.3 0
+vertex 0 -0.3 0
 vertex -1.25 -0.3 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
-vertex 0.5 0.3 0
+vertex 0 0.3 0
 vertex 1.25 24.32 0
 vertex 1.25 0.3 0
 endloop
@@ -171,7 +171,7 @@ facet normal 0 0 -1
 outer loop
 vertex -1.25 0.3 0
 vertex 1.25 24.32 0
-vertex 0.5 0.3 0
+vertex 0 0.3 0
 endloop
 endfacet
 facet normal 0 0 -1
@@ -239,35 +239,35 @@ endloop
 endfacet
 facet normal -1 0 0
 outer loop
-vertex 0.5 0.3 0
-vertex 0.5 -0.3 0.25
-vertex 0.5 0.3 0.25
+vertex 0 0.3 0
+vertex 0 -0.3 0.25
+vertex 0 0.3 0.25
 endloop
 endfacet
 facet normal -1 0 0
 outer loop
-vertex 0.5 -0.3 0.25
-vertex 0.5 0.3 0
-vertex 0.5 -0.3 0
+vertex 0 -0.3 0.25
+vertex 0 0.3 0
+vertex 0 -0.3 0
 endloop
 endfacet
 facet normal 0 1 0
 outer loop
 vertex 1.25 0.3 0
-vertex 2.5 0.3 0.25
-vertex 2.5 0.3 0
+vertex 2.7 0.3 0.25
+vertex 2.7 0.3 0
 endloop
 endfacet
 facet normal 0 1 0
 outer loop
 vertex 1.25 0.3 0
 vertex 1.25 0.3 0.25
-vertex 2.5 0.3 0.25
+vertex 2.7 0.3 0.25
 endloop
 endfacet
 facet normal 0 1 0
 outer loop
-vertex 0.5 0.3 0
+vertex 0 0.3 0
 vertex 1.25 0.3 0.25
 vertex 1.25 0.3 0
 endloop
@@ -275,41 +275,41 @@ endfacet
 facet normal 0 1 0
 outer loop
 vertex 1.25 0.3 0.25
-vertex 0.5 0.3 0
-vertex 0.5 0.3 0.25
+vertex 0 0.3 0
+vertex 0 0.3 0.25
 endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 2.5 -0.3 0.25
-vertex 2.5 0.3 0
-vertex 2.5 0.3 0.25
+vertex 2.7 -0.3 0.25
+vertex 2.7 0.3 0
+vertex 2.7 0.3 0.25
 endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 2.5 0.3 0
-vertex 2.5 -0.3 0.25
-vertex 2.5 -0.3 0
+vertex 2.7 0.3 0
+vertex 2.7 -0.3 0.25
+vertex 2.7 -0.3 0
 endloop
 endfacet
 facet normal 0 -1 0
 outer loop
 vertex 1.25 -0.3 0.25
-vertex 2.5 -0.3 0
-vertex 2.5 -0.3 0.25
+vertex 2.7 -0.3 0
+vertex 2.7 -0.3 0.25
 endloop
 endfacet
 facet normal 0 -1 0
 outer loop
 vertex 1.25 -0.3 0.25
 vertex 1.25 -0.3 0
-vertex 2.5 -0.3 0
+vertex 2.7 -0.3 0
 endloop
 endfacet
 facet normal 0 -1 0
 outer loop
-vertex 0.5 -0.3 0.25
+vertex 0 -0.3 0.25
 vertex 1.25 -0.3 0
 vertex 1.25 -0.3 0.25
 endloop
@@ -317,27 +317,27 @@ endfacet
 facet normal 0 -1 0
 outer loop
 vertex 1.25 -0.3 0
-vertex 0.5 -0.3 0.25
-vertex 0.5 -0.3 0
+vertex 0 -0.3 0.25
+vertex 0 -0.3 0
 endloop
 endfacet
 facet normal 0 0 1
 outer loop
 vertex 1.25 0.3 0.25
-vertex 2.5 -0.3 0.25
-vertex 2.5 0.3 0.25
+vertex 2.7 -0.3 0.25
+vertex 2.7 0.3 0.25
 endloop
 endfacet
 facet normal 0 0 1
 outer loop
 vertex 1.25 0.3 0.25
 vertex 1.25 -0.3 0.25
-vertex 2.5 -0.3 0.25
+vertex 2.7 -0.3 0.25
 endloop
 endfacet
 facet normal 0 0 1
 outer loop
-vertex 0.5 0.3 0.25
+vertex 0 0.3 0.25
 vertex 1.25 -0.3 0.25
 vertex 1.25 0.3 0.25
 endloop
@@ -345,36 +345,36 @@ endfacet
 facet normal 0 0 1
 outer loop
 vertex 1.25 -0.3 0.25
-vertex 0.5 0.3 0.25
-vertex 0.5 -0.3 0.25
+vertex 0 0.3 0.25
+vertex 0 -0.3 0.25
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
 vertex 1.25 -0.3 0
-vertex 2.5 0.3 0
-vertex 2.5 -0.3 0
+vertex 2.7 0.3 0
+vertex 2.7 -0.3 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
 vertex 1.25 -0.3 0
 vertex 1.25 0.3 0
-vertex 2.5 0.3 0
+vertex 2.7 0.3 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
 vertex 1.25 -0.3 0
-vertex 0.5 0.3 0
+vertex 0 0.3 0
 vertex 1.25 0.3 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
-vertex 0.5 0.3 0
+vertex 0 0.3 0
 vertex 1.25 -0.3 0
-vertex 0.5 -0.3 0
+vertex 0 -0.3 0
 endloop
 endfacet
 endsolid JSxCAD
