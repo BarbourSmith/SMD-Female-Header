@@ -498,15 +498,15 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 703,
+                    "x": 701,
                     "y": 165,
                     "uniqueID": 284574,
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "15 Place Female Header",
                         "numberNeeded": 1,
-                        "costUSD": 0.95,
-                        "source": "www.example.com",
+                        "costUSD": 0.594,
+                        "source": "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7861546?qs=sGAEpiMZZMs%252BGHln7q6pmzzqnf3%2F1AeIR0hnMc3ILas=",
                         "totalNeeded": 0
                     }
                 },

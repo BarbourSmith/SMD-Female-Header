@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|15 Place Female Header|1|$0.95|www.example.com|
-|Total: |1|$0.95| |
+|15 Place Female Header|1|$0.59|https://www.mouser.co.uk/ProductDetail/Harwin/M20-7861546?qs=sGAEpiMZZMs%252BGHln7q6pmzzqnf3%2F1AeIR0hnMc3ILas=|
+|Total: |1|$0.59| |
 
- 3xCOG MSRP: $2.85
+ 3xCOG MSRP: $1.78
