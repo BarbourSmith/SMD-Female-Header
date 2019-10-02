@@ -43,7 +43,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -319,17 +319,17 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 1154,
-                    "y": 152,
+                    "x": 1155,
+                    "y": 156,
                     "uniqueID": 195014,
                     "ioValues": [],
-                    "selectedColorIndex": "9"
+                    "selectedColorIndex": "10"
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -514,7 +514,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
